@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "FiraSans";
+  src: url("/fonts/FiraSans/FiraSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans_Medium";
+  src: url("/fonts/FiraSans/FiraSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans_SemiBold";
+  src: url("/fonts/FiraSans/FiraSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans_Bold";
+  src: url("/fonts/FiraSans/FiraSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FiraSans_ExtraBold";
+  src: url("/fonts/FiraSans/FiraSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: ScriptType;
+  src: url("/fonts/ScriptType/ScriptType.ttf") format("truetype");
+}

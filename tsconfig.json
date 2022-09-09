@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": "./",
+    "paths": {
+      "@Footer": ["components/Layouts/Footer"],
+      "@TextComponents/*": ["components/TextComponents/*"],
+      "@Loaders/*": ["components/Loaders/*"],
+      "@Buttons/*": ["components/Buttons/*"],
+      "@Inputs/*": ["components/Inputs/*"],
+      "@Layouts/*": ["components/Layouts/*"],
+      "@Navigation/*": ["components/Navigation/*"],
+      "@Dropdowns/*": ["components/Dropdowns/*"],
+      "@Alerts/*": ["components/Alerts/*"],
+      "@Toasts/*": ["components/Toasts/*"],
+      "@Registration/*": ["components/Registration/*"],
+      "@Products/*": ["components/Products/*"],
+      "@Filters/*": ["components/Filters/*"],
+      "@ConnectivityListener/*": ["components/ConnectivityListener/*"],
+      "@ErrorBoundaries/*": ["components/ErrorBoundaries/*"],
+      "@components/*": ["components/*"],
+      "@public/*": ["public/*"],
+      "@contexts/*": ["contexts/*"],
+      "@firebase/*": ["firebase/*"],
+      "@helpers/*": ["helpers/*"],
+      "@utils/*": ["utils/*"],
+      "@hooks/*": ["helpers/hooks*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "helpers/hooks/useDetectOutsideClick.js",
+    "components/Dropdowns/dropdown.jsx",
+    "components/infotip.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
